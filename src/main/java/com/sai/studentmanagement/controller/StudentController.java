@@ -12,6 +12,7 @@ import java.util.List;
 public class StudentController {
 
     @Autowired
+    //this is service layer which is autowired here to use the methods of service layer in controller layer
     private StudentService studentService;
 
     @PostMapping("/add")
